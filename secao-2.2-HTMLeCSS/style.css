@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(190, 180, 173);
+}
+.nome-principal{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.cidade{
+    color: brown;
+
+}
+.pais{
+    color: brown;
+
+}
+.habilidades{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+}
