@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(190, 180, 173);
+}
+.nome-principal{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+#foto{
+    padding: 5px;
+    width: 200px;
+    border-style: ridge;
+    border-color: brown;
+    background-color: white;
+
+}
+.descricao{
+    border-style: ridge;
+    border-color: blue;
+    margin-left: 215px;
+    margin-top: -250px;
+    position: absolute;
+    
+    
+
+
+}
+.habilidades{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+}
+.js1:hover{
+    background-color: bisque;
+    font-weight: bold;
+    
+}
+.js2:hover{
+    background-color: azure;
+    font-weight: bold
+}
