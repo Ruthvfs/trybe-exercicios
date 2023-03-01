@@ -18,7 +18,7 @@ if(number1 > number2){
 }
 
 //terceira questão
-let a = 22;
+/*let a = 22;
 let b = 14;
 let c = 5;
 
@@ -28,4 +28,30 @@ if(a >b && a >c ){
     console.log('o maior número é: ' + b+ '(b)');
 }else{
     console.log('o maior número é: '+ c+ '(c)');
+}*/
+ //quarta questão
+let a = 44;
+if(a > 0){
+    console.log('positive');
+}else if(a < 0){
+    console.log('negative');
+}else{
+    console.log('zero');
+}
+//quinta questão
+let degreeAngle1 = 65;
+let degreeAngle2 = 15;
+let degreeAngle3 = 100;
+
+let sumOfAngles = degreeAngle1 + degreeAngle2 + degreeAngle3;
+let allAnglesArePositive = degreeAngle1 > 0 && degreeAngle2 > 0 && degreeAngle3 > 0;
+ 
+if(allAnglesArePositive){
+    if(sumOfAngles === 180){
+        console.log(true);
+    }else{
+        console.log(false);
+    }
+}else{
+    console.log('erro: ângulo inválido');
 }
